@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.letter{
+    text-align: center;
+}
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+video {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+    video {
+        object-fit: cover;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    video {
+        object-fit: cover;
+        width: 100%;
+        
+        
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    video {
+        object-fit: cover;
+        
+
+    }
+}
+
+.letter{
+    text-align: center;
+    text-size-adjust: 30px;
+}
